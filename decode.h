@@ -1,6 +1,3 @@
-//
-// Created by ilya on 25.03.2020.
-//
 
 #ifndef CAESAR_DECODE_H
 #define CAESAR_DECODE_H

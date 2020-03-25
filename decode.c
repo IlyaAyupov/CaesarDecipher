@@ -10,6 +10,8 @@ char encode(char c, int shift){
     if(c>='A'&&c<='Z')return 'A'+(c-'A'+shift)%26;
     return c;
 }
+
+
 double chi_sq(const int * text_freq,int shift, int n){
     double sum=0;
     double ENGLISH_FREQ[]=EF;
@@ -40,6 +42,8 @@ int encode_shift(char * str){
     }
     return min_shift;
 }
+
+
 void print_shift_chi_sq(char * str){
     int * freq_table=create_freq_table();
     add_letters(freq_table,str);
@@ -57,6 +61,8 @@ void print_shift_chi_sq(char * str){
     for(int i=0;i<WIDTH_SHIFT_TABLE;i++)printf("-");
     printf("\n");
 }
+
+
 int to_decode(int shift){
     return (26-shift)%26;
 }

@@ -1,6 +1,3 @@
-//
-// Created by ilya on 25.03.2020.
-//
 
 #ifndef CAESAR_FREQUENCY_TABLE_H
 #define CAESAR_FREQUENCY_TABLE_H
